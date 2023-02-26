@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body class="fade-in">
+
+  <main>
+    <section class="main__logo">
+      <img src="./images/logo.svg" alt="Ping"/>
+    </section>
+    <h1 class="main__heading">We are launching <span class="main__heading--highlighted">soon!</span></h1>
+    <p class="main__description">Subscribe and get notified</p>
+
+    <form class="main__form" novalidate>
+      <label for="email" class="sr-only">Email Adress</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="main__email"
+        placeholder="Email Address"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        autocomplete="off"
+      />
+      <div id="error-message-container" aria-live="polite" class="main__error-message-container">
+        <span class="error-message" id="error-message">Enter a valid email</span>
+      </div>
+      <button
+        type="submit"
+        class="submit"
+        id="submit"
+        aria-label="submit"
+      >Notify Me</button>
+    </form>
+
+    <picture>
+      <img src="./images/illustration-dashboard.png" alt="" aria-hidden="true"/>
+    </picture>
+  </main>
+
+  <footer>
+    <section class="footer__socials-container">
+      <img src="./images/facebook-f.svg" alt="" aria-hidden="true">
+      <img src="./images/twitter.svg" alt="" aria-hidden="true">
+      <img src="./images/instagram.svg" alt="" aria-hidden="true">
+    </section>
+    <section class="footer__copyright">
+      &copy; Copyright Ping. All rights reserved.
+    </section>
+  </footer>
+</body>
+</html>
