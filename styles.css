@@ -257,12 +257,16 @@ footer {
     justify-content: center;
     padding-bottom: 2em;
 }
-.footer__socials-container > img {
-    width: 40px;
-    height: 40px;
+.footer__socials-container a {
     border-radius: 50%;
     border: 1px solid var(--gray);
+    width: 41px;
+    height: 41px;
+}
+.footer__socials-container img {
     padding: 10px;
+    width: 40px;
+    height: 40px;
     filter: invert(38%) sepia(81%) saturate(1096%) hue-rotate(203deg) brightness(101%) contrast(91%);
 }
 
