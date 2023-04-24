@@ -109,21 +109,16 @@ picture {
 }
 
 main {
-    height: min(100%, 100vh);
+    min-height: 100dvh;
     align-content: baseline;
     gap: .5rem;
-    padding-top: 10vw;
+    margin-top: 3.5rem;
 }
 
   
 /**
-  ---- LOGO & PICTURE ---->
+  ---- PICTURE ---->
 **/
-  
-.main__logo {
-    max-width: 5.5rem;
-    padding: 1rem;
-}
 
 picture img {
     margin-top: 15%;
@@ -247,9 +242,8 @@ footer {
     font-size: .8rem;
     color: var(--gray);
     text-align: center;
-    position: absolute;
     width: 100%;
-    bottom: 2%;
+    margin-bottom: 1rem;
 }
 .footer__socials-container {
     display: flex;
@@ -259,14 +253,13 @@ footer {
 }
 .footer__socials-container a {
     border-radius: 50%;
-    border: 1px solid var(--gray);
-    width: 41px;
-    height: 41px;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #eee;
 }
 .footer__socials-container img {
-    padding: 10px;
-    width: 40px;
-    height: 40px;
+    aspect-ratio: 1/1;
+    padding: .5rem;
     filter: invert(38%) sepia(81%) saturate(1096%) hue-rotate(203deg) brightness(101%) contrast(91%);
 }
 
@@ -275,15 +268,40 @@ footer {
     ---- MEDIA QUERIES ---->
 **/
 
-@media (min-width: 37.25em) {
+@media (min-width: 55.25em) {
     main {
         padding-top: 2em;
+        margin-top: 3.5rem;
+        min-height: unset;
     }
     .main__form {
-        width: min(32em, 80%);
         flex-direction: row;
         height: 5em;
         gap: .7em;
+    }
+    .main__heading {
+        font-size: 3rem;
+        margin-top: 1.5rem;
+    }
+    .main__description {
+        font-size: 1.3rem;
+        letter-spacing: -.01em;
+        margin-bottom: 1.75rem;
+    }
+    .main__form {
+        max-width: 40rem;
+        gap: 1rem;
+    }
+    form button {
+        width: 19.7rem;
+        padding: 0;
+        height: 3.45rem;
+        font-size: 1rem;
+    }
+    .main__email {
+        width: 40.5rem;
+        padding-left: 2rem;
+        height: 3.7rem;
     }
     button {
         margin: 0;
@@ -295,12 +313,18 @@ footer {
         padding: 0 6.5em !important;
     }
     picture img {
-        margin-top: 5%;
-        width: 35em;
+        margin-top: 3.4rem;
+        max-width: 44.5rem;
     }
     footer {
-        margin: 6em 0 1em 0;
-        position: static;
+        margin: 4.49rem 0;
+    }
+    .footer__socials-container {
+        padding-bottom: 1.7em;
+    }
+    .footer__copyright {
+        font-size: .7rem;
+        letter-spacing: .02em;
     }
 }
 
