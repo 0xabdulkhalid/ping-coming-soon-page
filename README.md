@@ -1,12 +1,10 @@
-<div id="top"></div>
-
 <div align="center">
 
   <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
 
-  <h2 align="center">Ping coming soon page solution</h2>
+  <h2 align="center">Ping Coming Soon Page Solution</h2>
   <p align="center">
-    <a href="#" target="_blank"><strong>Frontend Mentor Challenge</strong></a>
+    <a href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da" target="_blank"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
     <a href="https://0xabdulkhalid.github.io/ping-coming-soon-page/" target="_blank">View Demo</a>
@@ -17,21 +15,21 @@
   </p>
 </div>
 
-<!-- Bagdes -->
+<!-- Badges -->
 <div align="center">
-
-  <!-- Difficulty -->
-  <a href="https://www.frontendmentor.io/challenges?difficulties=1">
-    <img src="https://img.shields.io/badge/Difficulty-Newbie-61BECD?style=for-the-badge&logo=frontendmentor" alt="Challenge Difficulty - Newbie">
+  <!-- Profiles -->
+  <a href="https://www.frontendmentor.io/profile/0xabdulkhalid" target="_blank">
+    <img src="https://img.shields.io/badge/Profile-0xAbdulKhalid-fefefe?style=for-the-badge&logo=frontendmentor" alt="Abdul Khalid's Profile">
   </a> &nbsp;&nbsp;&nbsp;
 
   <!-- Status -->
   <a href="#">
-    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
-  </a>&nbsp;&nbsp;&nbsp;
-  <!-- Profiles -->
-  <a href="https://www.frontendmentor.io/profile/0xabdulkhalid">
-    <img src="https://img.shields.io/badge/Profile-0xAbdulKhalid-4B7CF5?style=for-the-badge&logo=frontendmentor" alt="Abdul's Profile">
+    <img src="https://img.shields.io/badge/Status-Completed-00CE80?style=for-the-badge" alt="Status Completed">
+  </a> &nbsp;&nbsp;&nbsp;
+
+  <!-- Difficulty -->
+  <a href="https://www.frontendmentor.io/challenges?difficulties=1"  target="_blank">
+    <img src="https://img.shields.io/badge/Difficulty-Newbie-61BECD?style=for-the-badge&logo=frontendmentor" alt="Challenge Difficulty - Newbie">
   </a>
 
 </div>
@@ -39,44 +37,58 @@
 <br />
 
 
+
+## **Preview**
+
 <div align='center'>
-<img src='./design/desktop-preview.jpg' alt='Profile preview card solution cover image'>
+<img src='./design/preview.webp' alt='Ping coming soon page solution preview image'>
 </div>
 
 
 <br>
 
-This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da).
-
 ## **Links**
 
-- Live Site URL: [https://0xabdulkhalid.github.io/ping-coming-soon-page/](https://0xabdulkhalid.github.io/ping-coming-soon-page/)
-- Solution URL: [#](#)
-
-<br>
-
-## **Built With**
-
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   
+- |||
+  | :----- | :----- |
+  | Solution URL: | [To be posted ⏳](#links) |
+  | Live Site URL: | [https://0xabdulkhalid.github.io/ping-coming-soon-page/](https://0xabdulkhalid.github.io/ping-coming-soon-page/) |
+  |||
 
 
-<br>
+## The Challenge
 
-## **Tools Used**
+- The challenge is to build out this Ping Coming Soon Page and get it looking as close to the design as possible.
 
-- ![Shell Script](https://img.shields.io/badge/Bash-%23221011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
-- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  
-- ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
-- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)   
+- Your users should be able to:
+  - View the optimal layout for the site depending on their device's screen size
+  - See hover states for all interactive elements on the page
+  - Submit their email address using an `input` field
+  - Receive an error message when the `form` is submitted if:
+    - The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
+    - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 <br>
 
 ## **What I learned**
 
 * Usage of `novalidate` attribute on form element which turns off browser's default email validation
-* Utilization of `pattern` attribute for verifiying email with regular expressions (still want to sanitize the input with javascript)
+* Utilization of Regular expressions for validating email through JavaScript
+* Usage of `wc-toast` to get instant hassle free notifications
 * A lot of minor things
+
+<br>
+
+## **Built With**
+
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) &nbsp; ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) &nbsp; ![](https://img.shields.io/badge/WC%20Toast-000?style=for-the-badge&logo=Minutemailer&logoColor=yellow) &nbsp; ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+
+
+<br>
+
+## **Tools Used**
+
+![Google](https://img.shields.io/badge/google-DA4437?style=for-the-badge&logo=google&logoColor=white) &nbsp;  ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) &nbsp; ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) &nbsp; ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 <br>
 
@@ -86,20 +98,20 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 <br>
 
-## **Contact**
+## **Let's Connect 👋**
 
 <div align=center>
 
   <a href="https://linkedin.com/in/0xabdulkhalid" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin%20Profile-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt=Linkedin>
+    <img src="https://img.shields.io/badge/linkedin%20Profile-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Profile">
   </a>&nbsp;&nbsp;&nbsp;
 
   <a href="https://www.frontendmentor.io/profile/0xabdulkhalid" target="_blank">
-    <img src="https://img.shields.io/badge/FEM%20Profile-f8f9f8?style=for-the-badge&logo=Frontend-Mentor&logoColor=black" alt="Frontend-Mentor">
+    <img src="https://img.shields.io/badge/FEM%20Profile-f8f9f8?style=for-the-badge&logo=Frontend-Mentor&logoColor=black" alt="Frontend-Mentor Profile">
   </a> &nbsp;&nbsp;&nbsp;
 
   <a href="https://www.github.com/0xabdulkhalid/" target="_blank">
-    <img src="https://img.shields.io/badge/Github%20Profile-131313?style=for-the-badge&logo=github&logoColor=white" alt="Personal Website">
+    <img src="https://img.shields.io/badge/Github%20Profile-131313?style=for-the-badge&logo=github&logoColor=white" alt="Github Profile">
   </a>
 
 </div>
