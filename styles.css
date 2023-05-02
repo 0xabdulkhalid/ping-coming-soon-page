@@ -191,6 +191,10 @@ input {
     opacity: 0;
 }
 
+.main__error-message-container span {
+    margin-right: .5rem;
+}
+
 .main__email--error {
     border-color: var(--light-red);
 }
@@ -314,7 +318,6 @@ footer {
         position: absolute;
         bottom: -1rem;
         padding: 0 0 0 1.25rem !important;
-        width: 14rem;
     }
     picture img {
         margin-top: 3.4rem;
