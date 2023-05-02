@@ -257,11 +257,13 @@ footer {
     height: 2rem;
     width: 2rem;
     border: 1px solid #eee;
+    transition: .7s ease;
 }
 .footer__socials-container img {
     aspect-ratio: 1/1;
     padding: .5rem;
     filter: invert(38%) sepia(81%) saturate(1096%) hue-rotate(203deg) brightness(101%) contrast(91%);
+    transition: .4s ease;
 }
 
 
@@ -323,6 +325,12 @@ footer {
     }
     .footer__socials-container {
         padding-bottom: 1.7em;
+    }
+    .footer__socials-container a:hover {
+        background: var(--blue);
+    }
+    .footer__socials-container a:hover img {
+        filter: invert(1);
     }
     .footer__copyright {
         font-size: .7rem;
