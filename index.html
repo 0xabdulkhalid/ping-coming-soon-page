@@ -10,11 +10,11 @@
 </head>
 
 <body class="fade-in">
-
   <main>
+    <wc-toast position="top-right" aria-live="polite"></wc-toast>
 
     <header>
-      <a href="#" aria-label="Huddle homepage"  class="main__logo">
+      <a href="#" aria-label="Ping homepage"  class="main__logo">
         <img src="./images/logo.svg" alt="" width="86" height="26">
       </a>
     </header>
@@ -29,7 +29,6 @@
         id="email"
         class="main__email"
         placeholder="Email Address"
-        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         autocomplete="off"
         aria-label="email address"
       />
@@ -65,5 +64,6 @@
       &copy; Copyright Ping. All rights reserved.
     </section>
   </footer>
+  <script src="./main.js" defer></script>
 </body>
 </html>
