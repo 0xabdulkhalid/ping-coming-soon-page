@@ -1,12 +1,13 @@
-/**
-  ---- LOCAL FONT ---->
-**/
-
+/*
+    IMPORTING FONTS FROM RELATIVE SOURCE
+*/
 @font-face {
     font-family: 'Libre Franklin';
-    src: url('./fonts/LibreFranklin-VariableFont_wght.ttf') format("truetype-variations");
+    src:  url('./fonts/LibreFranklin.woff') format('woff'), url('./fonts/LibreFranklin.woff2') format('woff2');
     font-weight: 1 999;
-}
+    font-display: swap;
+  }
+  
 
 /**
   ---- VARIABLES ---->
@@ -169,7 +170,8 @@ picture img {
 input {
     width: 100%;
     height: 2.8rem;
-    border: 1px solid var(--pale-blue);
+    outline: 1px solid var(--pale-blue);
+    border: 0;
     border-radius: 1.88rem;
     padding-left: 1.25rem;
     margin-bottom: 0.5rem;
@@ -220,18 +222,17 @@ button:is(:focus-visible, :active) {
 **/
 
 input[type="email"]:is(:hover, :focus-visible) {
-    outline: none;
-    border: 2px solid var(--blue);
+    outline: 2px solid var(--blue);
 }
 
-input[type="email"]:invalid {
-    border: 2px solid var(--light-red);
-    transition: border 0.3s ease;
+.main__email--invalid {
+    outline: 2px solid var(--light-red) !important;
+    transition: 0.3s ease;
 }
 
-input[type="email"]:invalid + .main__error-message-container {
+.main__email--invalid + .main__error-message-container {
     height: auto;
-    padding-bottom: 1.5em;
+    padding: .5rem 0 1.5rem 0;
     opacity: 1;
 }
 
@@ -309,8 +310,9 @@ footer {
     }
     .main__error-message-container {
         position: absolute;
-        bottom: 0;
-        padding: 0 6.5em !important;
+        bottom: -1rem;
+        padding: 0 0 0 1.25rem !important;
+        width: 14rem;
     }
     picture img {
         margin-top: 3.4rem;
