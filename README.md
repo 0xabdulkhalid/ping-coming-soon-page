@@ -55,6 +55,19 @@
   | Live Site URL: | [https://0xabdulkhalid.github.io/ping-coming-soon-page/](https://0xabdulkhalid.github.io/ping-coming-soon-page/) |
   |||
 
+<br>
+
+## Pagespeed Insights Score:
+
+- | Scored 99.5% for Both Mobile & Desktop |
+  | :-----: |
+  | <img src='./images/pagespeed-insights-score.svg' alt='Scoreboard'> |
+  |  |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-ping-coming-soon-page/18r3fttk9d?form_factor=mobile) to get live score |
+  |||
+
+<br>
+
 
 ## The Challenge
 
