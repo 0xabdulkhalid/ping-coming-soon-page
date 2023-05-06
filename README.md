@@ -51,7 +51,7 @@
 
 - |||
   | :----- | :----- |
-  | Solution URL: | [To be posted ⏳](#links) |
+  | Solution URL: | [PING COMING SOON 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - JS REGEXP ]](https://www.frontendmentor.io/solutions/ping-coming-soon-accessible-bem-vanilla-css3-js-regexp-c45u9NHcgU) |
   | Live Site URL: | [https://0xabdulkhalid.github.io/ping-coming-soon-page/](https://0xabdulkhalid.github.io/ping-coming-soon-page/) |
   |||
 
